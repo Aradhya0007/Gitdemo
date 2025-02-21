@@ -1,7 +1,5 @@
 package work.test;
 
-import static org.testng.Assert.assertEquals;
-
 import java.time.Duration;
 import java.util.List;
 
@@ -13,8 +11,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
-import work.projectobject.Landingpage;
 
 public class Standalonetest {
 
@@ -57,6 +53,8 @@ public class Standalonetest {
         //driver.findElement(By.xpath("//a[contains(@class,'action__submit')]")).click();  
         String msg=driver.findElement(By.cssSelector(".hero-primary")).getText();
         Assert.assertEquals("THANKYOU FOR THE ORDER.", msg);
+        System.out.println("gittt");
+        System.out.println("hub");
 
         
 
