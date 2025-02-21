@@ -17,6 +17,8 @@ import work.testcomponent.Basetest;
 	        Assert.assertEquals(check.error(), "Incorrect email or password.", "Error message does not match!");
 
 	        //Incorrect email or password.
+	        System.out.println("d");
+	        System.out.println("e");
 
 		}
 		
