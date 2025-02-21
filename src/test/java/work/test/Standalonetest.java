@@ -54,7 +54,7 @@ public class Standalonetest {
         String msg=driver.findElement(By.cssSelector(".hero-primary")).getText();
         Assert.assertEquals("THANKYOU FOR THE ORDER.", msg);
         System.out.println("gittt");
-        System.out.println("hub");
+        System.out.println("h");
 
         
 
